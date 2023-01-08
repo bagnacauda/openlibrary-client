@@ -22,8 +22,6 @@ __-- or --__
 $ git clone https://github.com/internetarchive/openlibrary-client.git
 $ cd openlibrary-client
 $ pip install .
--- or --
-$ pipx install git+https://github.com/internetarchive/openlibrary-client.git
 ```
 
 ## Configuration
@@ -108,7 +106,7 @@ Author Information for existing authors can be done in the following manner.
 
 ### Command Line Tool
 
-Installing the openlibrary-client library will also install the `ol` command line utility.  Right now it does exactly nothing.
+Installing the openlibrary-client library will also install the `ol` command line utility.
 
 ```
 $ ol
